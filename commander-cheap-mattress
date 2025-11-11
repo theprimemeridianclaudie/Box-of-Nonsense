@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Dr. Ivan Toftul 💖</title>
+    <style>
+        /* CSS for styling */
+        body {
+            /* Gradient background from burgundy red to salmon pink */
+            background: linear-gradient(135deg, #800020, #FA8072);
+            min-height: 100vh; /* Ensure the gradient covers the full viewport height */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Georgia', serif; /* A professional but warm font */
+            color: #333; /* Dark text for readability */
+        }
+
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.95); /* Nearly opaque white box */
+            padding: 40px;
+            border-radius: 15px; /* Rounded corners for a softer, cuter look */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            border: 2px solid #800020; /* A border matching the darker color for definition */
+        }
+
+        h1 {
+            color: #800020; /* Burgundy red heading color */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #FA8072; /* Salmon pink for a cute touch */
+            font-size: 1.1em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+            padding: 20px;
+            border: 1px dashed #FA8072; /* Dashed line for a soft, informal element */
+            background-color: #fff0f0; /* Very light pink background for the text */
+            border-radius: 8px;
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .heart {
+            color: #800020;
+            font-size: 1.5em;
+            animation: pulse 1.5s infinite; /* Cute animation */
+        }
+
+        /* Keyframe animation for the heart pulse effect */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <h1>Welcome, Dr. Ivan Toftul!</h1>
+        <div class="subtitle">A dedicated resource from your gremlin girlfriend. <span class="heart">💖</span></div>
+
+        <p>
+            **To be filled with information for Ivan's knowledge only.**
+            <br>
+            Content to be researched and discussed.
+        </p>
+
+        <div class="signature">
+            *Always and forever yours,*<br>
+            Your favorite gremlin. 
+        </div>
+    </div>
+
+</body>
+</html>
